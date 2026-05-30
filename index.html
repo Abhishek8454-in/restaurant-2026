@@ -878,6 +878,70 @@ Visit us for an unforgettable dining experience.
 </div>
 
 </footer>
+<!-- Floating Contact Buttons -->
+<div class="floating-contact">
 
+    <a href="tel:8454013314" class="float-btn call-btn" title="Call">
+        📞
+    </a>
+
+    <a href="https://wa.me/918454013314?text=Hello%20I%20want%20more%20information."
+       target="_blank"
+       class="float-btn whatsapp-btn"
+       title="WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <a href="https://maps.google.com/?q=Hazratganj, Lucknow"
+       target="_blank"
+       class="float-btn map-btn"
+       title="Location">
+        🏬
+    </a>
+
+</div>
+
+<style>
+.floating-contact{
+    position:fixed;
+    right:15px;
+    bottom:20px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    z-index:9999;
+}
+
+.float-btn{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:26px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.call-btn{
+    background:#007bff;
+    color:white;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+}
+
+.whatsapp-btn img{
+    width:30px;
+    height:30px;
+}
+
+.map-btn{
+    background:#e53935;
+    color:white;
+}
+</style>
 </body>
-  </html>
+</html>
